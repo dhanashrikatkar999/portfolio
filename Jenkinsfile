@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GITHUB_CRED_ID = 'Jenkins1'  
+        GITHUB_CRED_ID = 'github-pat'  
         REPO = 'dhanashrikatkar999/portfolio'
     }
 
