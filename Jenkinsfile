@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     GITHUB_CRED_ID = 'Jenkins1'   // Jenkins credential id holding Personal Access Token
-    REPO = 'https://github.com/dhanashrikatkar999/portfolio/settings/hooks'
+    REPO = 'https://github.com/dhanashrikatkar999/portfolio'
   }
 
   stages {
