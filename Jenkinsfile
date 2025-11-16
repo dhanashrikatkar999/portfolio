@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    GITHUB_CRED_ID = 'github-pat'   // Jenkins credential id holding Personal Access Token
-    REPO = 'your-username/portfolio'
+    GITHUB_CRED_ID = 'DhanashriKatkar_Dhanu@999'   // Jenkins credential id holding Personal Access Token
+    REPO = 'https://github.com/dhanashrikatkar999/portfolio/settings/hooks'
   }
 
   stages {
